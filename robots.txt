@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /scripts/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /add_web_phish.php
+Disallow: /en-us/report
+Disallow: /report
+Disallow: /phish.report
+Disallow: https://www.mywot.com/
+Disallow: https://www.malwareurl.com/
+Disallow: https://www.zscaler.com/
+Disallow: https://openphish.com/index.html
+Disallow: https://www.urlvoid.com/scan/
+Disallow: https://www.virustotal.com/gui/home/upload
+Disallow: https://www.abuseipdb.com/
+Disallow: https://cybercrime-tracker.net/index.php
+Allow: /
+
+# Sitemap
+Sitemap: https://en-us-trezor.readthedocs.io/en/latest/sitemap.xml
